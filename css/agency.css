@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto
 }
 .btn-primary {
-  color: #fff;
+  color: #222;
   background-color: #fcf30a;
   border-color: #E3DA00;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -73,9 +73,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
-  color: #fff;
-  background-color: #222;
-  border-color: #000
+  color: #222;
+  background-color: #E3DA00;
+  border-color: #E3DA00
 }
 .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
   background-image: none

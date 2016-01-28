@@ -1,0 +1,101 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 120px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.bg-darkest-gray {background-color: #222;color: #fff;}
+.bg-light-gray {background-color: #f7f7f7;}
+
+img.main-logo {
+  height: auto;
+  padding-bottom: 10px;
+  max-width: 80%;
+}
+
+@media(min-width:768px) {
+  img.main-logo {
+    padding: 20px 0
+  }
+}
+
+img.map {
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+nav#under-construction {
+  background-image: url(http://www.noah.org/backgrounds/asunder.gif);
+  background-repeat: repeat-x;
+  background-size: 24px;
+  text-align: center;
+}
+
+nav#under-construction span {
+  background-color: yellow;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+footer {
+  padding-top: 25px;
+  text-align: center;
+  position: relative;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none
+}
+
+section#business-info {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  bottom: 0;
+}
+section#business-info p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.creditcard {
+    background-image: url(../img/creditcards.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 32px;
+    width: 51px;
+    margin-right: 5px;
+}
+.mastercard {background-position: -55px -35px;}
+.visa {background-position: -108px -35px;}
+.visa-electron {background-position: -107px -69px;}

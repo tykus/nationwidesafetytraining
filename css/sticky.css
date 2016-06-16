@@ -105,3 +105,71 @@ section#business-info p {
 .mastercard {background-position: -55px -35px;}
 .visa {background-position: -108px -35px;}
 .visa-electron {background-position: -107px -69px;}
+
+
+/* Contact Form */
+section#contact {
+  background-color: #eee;
+  margin-top: 2em;
+  padding: 3em;
+}
+section#contact .section-heading {
+  color: #222;
+}
+section#contact .form-group {
+  margin-bottom: 25px
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px
+}
+section#contact .form-group input.form-control {
+  height: auto
+}
+section#contact .form-group textarea.form-control {
+  height: 236px
+}
+section#contact .form-control:focus {
+  border-color: #069b3c;
+  box-shadow: none
+}
+section#contact::-webkit-input-placeholder {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb
+}
+section#contact:-moz-placeholder {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb
+}
+section#contact::-moz-placeholder {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb
+}
+section#contact:-ms-input-placeholder {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbb
+}
+section#contact .text-danger {
+  color: #e74c3c
+}
+.btn-primary {
+  color: #222;
+  background-color: #149a3f;
+  border-color: #000;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700
+}
+
+a[href^="tel:"]
+{
+  text-decoration: underline;
+}

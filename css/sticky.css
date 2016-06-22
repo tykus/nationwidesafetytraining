@@ -162,11 +162,20 @@ section#contact .text-danger {
 }
 .btn-primary {
   color: #222;
-  background-color: #149a3f;
-  border-color: #000;
+  background-color: #fcf30a;
+  border-color: #222;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700
+}
+
+.btn-primary:hover,
+.btn-primary:link,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #e3da00 !important;
+  border-color: #e3da00;
+  color: #222;
 }
 
 a[href^="tel:"]
